@@ -7,6 +7,8 @@
 - (void)initialize
 {
     // your code here
+    character = (Character *)[CCBReader load:@"Character"];
+                              
 }
 
 -(void)update:(CCTime)delta
