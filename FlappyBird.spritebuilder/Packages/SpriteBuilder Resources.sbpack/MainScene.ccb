@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>14</integer>
+	<integer>15</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -268,7 +268,7 @@
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>12</integer>
+						<integer>13</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -298,8 +298,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.0</real>
-									<real>106</real>
+									<real>-7.9399528503417969</real>
+									<real>-353.91580200195312</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -327,6 +327,17 @@
 									<real>1</real>
 									<false/>
 									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>skew</string>
+								<key>type</key>
+								<string>FloatXY</string>
+								<key>value</key>
+								<array>
+									<real>3.5238492488861084</real>
+									<real>0.0</real>
 								</array>
 							</dict>
 							<dict>
@@ -373,12 +384,14 @@
 								<array/>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 						<key>seqExpanded</key>
 						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>13</integer>
+						<integer>14</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -409,7 +422,7 @@
 								<key>value</key>
 								<array>
 									<real>320</real>
-									<real>106</real>
+									<real>-359</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -437,6 +450,17 @@
 									<real>1</real>
 									<false/>
 									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>skew</string>
+								<key>type</key>
+								<string>FloatXY</string>
+								<key>value</key>
+								<array>
+									<real>3.5238492488861084</real>
+									<real>0.0</real>
 								</array>
 							</dict>
 							<dict>
@@ -587,8 +611,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
@@ -971,8 +993,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-5.3323569297790527</real>
-							<real>78.320640563964844</real>
+							<real>-1.3330892324447632</real>
+							<real>80.98681640625</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1717,7 +1739,7 @@
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>0.056253433227539062</real>
+			<real>0.015625953674316406</real>
 			<key>position</key>
 			<real>0.0</real>
 			<key>resolution</key>
